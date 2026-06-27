@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background:linear-gradient(to right,rgb(255, 0, 89),yellow);
+    background:linear-gradient(to right,rgb(231, 221, 224),rgb(250, 198, 152));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,11 +8,14 @@ body {
     margin: 0;
 }
 .todo-container {
-    background: linear-gradient(to right,rgb(255, 247, 0),rgb(255, 0, 119));
+    background: linear-gradient(to right,rgb(242, 242, 240),rgb(244, 72, 153));
     padding: 20px;
     border-radius: 8px;
     box-shadow: 8px 8px 8px rgb(249, 130, 2);
     width: 50%;
+    transition:all 0.3s ease-in-out;
+    transition: height 0.3s ease;
+    height: auto;
 }
 .input-area {
     display: flex;
@@ -38,7 +41,7 @@ button:hover
     
     background-color: #218838;
     transition: background-color 0.3s;
-    transform: rotateZ(-15deg);
+    transform: rotateX(15deg);
 
  }
 ul { list-style: none; padding: 0; }
@@ -60,5 +63,5 @@ li {
 .delete-btn:hover { 
     background-color: #c82333;
     transition: background-color 0.3s;
-transform: rotateZ(15deg);
+transform: rotateX(15deg);
 }
