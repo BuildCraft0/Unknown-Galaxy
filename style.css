@@ -1,20 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     background:linear-gradient(to right,rgb(231, 221, 224),rgb(250, 198, 152));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    
 }
 .todo-container {
-    background: linear-gradient(to right,rgb(242, 242, 240),rgb(244, 72, 153));
+    
+     background: linear-gradient(to right,rgb(242, 242, 240),rgb(244, 72, 153));
     padding: 20px;
     border-radius: 8px;
     box-shadow: 8px 8px 8px rgb(249, 130, 2);
-    width: 50%;
+    width: 95%;
     transition:all 0.3s ease-in-out;
-   
+    align-items: center;
+    justify-content: center;
+    
   
 }
 .input-area {
