@@ -26,12 +26,11 @@ Because everything runs on the client side, the project is lightweight, fast to 
 
 ## Project Structure
 
-```text
-.
-|-- index.html
-|-- style.css
-`-- README.md
-```
+| File | Purpose |
+| --- | --- |
+| `index.html` | Main structure of the to-do app and inline JavaScript logic |
+| `style.css` | Styling, layout, colors, and button design |
+| `README.md` | Project documentation, setup, and deployment instructions |
 
 ## How It Works
 
