@@ -26,12 +26,11 @@ Because everything runs on the client side, the project is lightweight, fast to 
 
 ## Project Structure
 
-```text
-.
-|-- index.html
-|-- style.css
-`-- README.md
-```
+| File | Purpose |
+| --- | --- |
+| `index.html` | Main structure of the to-do app and inline JavaScript logic |
+| `style.css` | Styling, layout, colors, and button design |
+| `README.md` | Project documentation, setup, and deployment instructions |
 
 ## How It Works
 
@@ -51,7 +50,14 @@ No installation or build process is required.
 
 ## Deployment
 
-Since this is a static front-end project, it can be deployed easily on any static hosting service.
+Since this is a static front-end project, it can be deployed on any platform that serves plain `HTML`, `CSS`, and `JavaScript`. No build command or package installation is required.
+
+### Before You Deploy
+
+1. Make sure `index.html` is in the project root.
+2. Confirm `style.css` is in the same root folder.
+3. Test the app locally by opening `index.html` in your browser.
+4. Commit and push your latest changes to GitHub if you are deploying from a repository.
 
 ### GitHub Pages
 
@@ -59,21 +65,45 @@ Since this is a static front-end project, it can be deployed easily on any stati
 2. Open the repository on GitHub.
 3. Go to `Settings` > `Pages`.
 4. Under `Source`, choose `Deploy from a branch`.
-5. Select your main branch and root folder.
-6. Save the settings and wait for the live URL to be generated.
+5. Select the `main` branch and the `/ (root)` folder.
+6. Click `Save`.
+7. Wait a minute for GitHub to publish the site.
+8. Open the generated live URL, usually in this format:
+
+```text
+https://your-username.github.io/repository-name/
+```
 
 ### Netlify
 
-1. Create a new site from your Git repository.
-2. Leave the build command empty.
-3. Set the publish directory to the project root.
-4. Deploy the site.
+1. Log in to Netlify.
+2. Click `Add new site` > `Import an existing project`.
+3. Connect your GitHub repository.
+4. Leave the `Build command` empty.
+5. Set the `Publish directory` to `.` if Netlify asks for one.
+6. Click `Deploy site`.
 
 ### Vercel
 
-1. Import the repository into Vercel.
-2. Keep the default static project settings.
-3. Deploy without adding a framework preset.
+1. Log in to Vercel.
+2. Click `Add New` > `Project`.
+3. Import the GitHub repository.
+4. Keep the default settings because this is a static site.
+5. Do not add any framework preset or build command.
+6. Click `Deploy`.
+
+## Quick Deployment Commands
+
+If your project is not on GitHub yet, you can use these commands before deploying with GitHub Pages, Netlify, or Vercel:
+
+```bash
+git init
+git add .
+git commit -m "Initial project upload"
+git branch -M main
+git remote add origin https://github.com/your-username/repository-name.git
+git push -u origin main
+```
 
 ## Use Cases
 
