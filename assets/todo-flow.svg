@@ -1,0 +1,61 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">To-Do App Flowchart</title>
+  <desc id="desc">A flowchart showing how the To-Do app handles task entry, validation, creation, display, and deletion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4fbff"/>
+      <stop offset="100%" stop-color="#eef4ff"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#3f4f7a"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#23304b">
+    Simple To-Do App Flowchart
+  </text>
+  <text x="600" y="106" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#5b6783">
+    Task input to deletion workflow
+  </text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#24304b" text-anchor="middle">
+    <rect x="465" y="140" width="270" height="68" rx="20" fill="#ffffff" stroke="#c8d3ee" stroke-width="2"/>
+    <text x="600" y="182">Open To-Do App</text>
+
+    <rect x="465" y="250" width="270" height="68" rx="20" fill="#ffffff" stroke="#c8d3ee" stroke-width="2"/>
+    <text x="600" y="292">Enter Task</text>
+
+    <rect x="465" y="360" width="270" height="68" rx="20" fill="#ffffff" stroke="#c8d3ee" stroke-width="2"/>
+    <text x="600" y="402">Click Add Task</text>
+
+    <polygon points="600,460 760,550 600,640 440,550" fill="#fff8e7" stroke="#e0c56a" stroke-width="2"/>
+    <text x="600" y="545">Input Empty?</text>
+    <text x="600" y="570">Yes / No</text>
+
+    <rect x="95" y="520" width="250" height="68" rx="20" fill="#fff1f1" stroke="#e0a5a5" stroke-width="2"/>
+    <text x="220" y="562">Show Alert Message</text>
+
+    <rect x="850" y="490" width="250" height="68" rx="20" fill="#eefaf1" stroke="#a7cfb1" stroke-width="2"/>
+    <text x="975" y="532">Create List Item</text>
+
+    <rect x="850" y="600" width="250" height="68" rx="20" fill="#eefaf1" stroke="#a7cfb1" stroke-width="2"/>
+    <text x="975" y="642">Attach Delete Button</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#24304b" text-anchor="middle">
+    <rect x="850" y="690" width="250" height="48" rx="16" fill="#ffffff" stroke="#c8d3ee" stroke-width="2"/>
+    <text x="975" y="720">Display Task in List</text>
+  </g>
+
+  <line x1="600" y1="208" x2="600" y2="250" stroke="#3f4f7a" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="600" y1="318" x2="600" y2="360" stroke="#3f4f7a" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="600" y1="428" x2="600" y2="460" stroke="#3f4f7a" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="440" y1="550" x2="345" y2="554" stroke="#3f4f7a" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="760" y1="550" x2="850" y2="524" stroke="#3f4f7a" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="975" y1="558" x2="975" y2="600" stroke="#3f4f7a" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="975" y1="668" x2="975" y2="690" stroke="#3f4f7a" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="390" y="532" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#a14f4f">Yes</text>
+  <text x="810" y="524" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#2d6a3e">No</text>
+</svg>
