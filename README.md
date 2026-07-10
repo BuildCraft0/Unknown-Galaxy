@@ -110,19 +110,7 @@ flowchart LR
     F --> L[project-structure.svg]
 ```
 
-## Folder Structure
 
-```text
-Unknown-Galaxy/
-|-- index.html
-|-- style.css
-|-- script.js
-|-- README.md
-`-- assets/
-    |-- project-structure.svg
-    |-- todo-demo.svg
-    `-- todo-flow.svg
-```
 
 ## Run Locally
 
